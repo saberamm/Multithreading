@@ -2,6 +2,8 @@ package starving;
 
 public class Main {
 
+    // creating main methode and creat 5 thread and set different priority
+    // test the starvation in multi threading
     public static void main(String[] args) {
 
         Starvation thread0 = new Starvation();
