@@ -2,6 +2,7 @@ package deadlock;
 
 public class Main {
 
+    //creating two resource and creating two thread and start them
     public static void main(String[] args) {
 
         final String resource1 = "hello from resource one";

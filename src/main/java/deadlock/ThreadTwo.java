@@ -9,6 +9,7 @@ public class ThreadTwo extends Thread {
         this.resource2 = resource2;
     }
 
+    //in this methode thread doesn't have  access to resource1 because this resource locked by thread one
     public void run() {
         synchronized (resource2) {
             System.out.println(resource2 + "--->Thread 2: locked resource 2");
