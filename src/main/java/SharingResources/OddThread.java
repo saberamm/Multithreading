@@ -9,6 +9,7 @@ class OddThread extends Thread {
         this.maxNumber = maxNumber;
     }
 
+    //this methode put odd number in shared resource list and then notify that the resource is free
     public void run() {
         for (int i = 1; i <= maxNumber; i += 2) {
             sharedResource.addNumber(i);

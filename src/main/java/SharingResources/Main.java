@@ -28,6 +28,7 @@ public class Main {
         }
     }
 
+    //this methode will get a positive round number from client
     public static int getNumber() {
         Scanner input = new Scanner(System.in);
         int number;
