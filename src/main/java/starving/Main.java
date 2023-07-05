@@ -17,11 +17,11 @@ public class Main {
         Starvation thread4 = new Starvation();
         thread4.setPriority(1);
 
-        thread0.start();
+        thread4.start();
+        thread3.start();
         thread1.start();
         thread2.start();
-        thread3.start();
-        thread4.start();
+        thread0.start();
 
 
     }
